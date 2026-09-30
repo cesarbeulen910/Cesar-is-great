@@ -34,3 +34,23 @@ p {
   line-height: 1.6;
   color: #58647a;
 }
+
+button {
+  margin-top: 24px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  background-color: #182238;
+  color: #fff;
+  font: inherit;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #304363;
+}
+
+button:focus-visible {
+  outline: 3px solid #58647a;
+  outline-offset: 4px;
+}
